@@ -1,0 +1,7 @@
+
+#Customxplevels Mod Configurations
+[customxplevels]
+	#Sets the xp amount per level
+	#Range: 0 ~ 999999
+	xpperlevel = 10
+

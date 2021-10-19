@@ -1,0 +1,1208 @@
+[18Oct2021 20:22:42.182] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
+[18Oct2021 20:22:42.185] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_301 by Oracle Corporation
+[18Oct2021 20:22:42.528] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18Oct2021 20:22:42.549] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Delta/Desktop/Minecraft%20Server/Forge%20Server/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[18Oct2021 20:22:43.150] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[18Oct2021 20:22:43.489] [main/ERROR] [mixin/]: Mixin config epicfight.mixins.json does not specify "minVersion" property
+[18Oct2021 20:22:43.509] [main/ERROR] [mixin/]: Mixin config mostructures.mixins.json does not specify "minVersion" property
+[18Oct2021 20:22:43.546] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.wuest.prefab.MixinConnector]
+[18Oct2021 20:22:43.548] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[18Oct2021 20:22:44.873] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[18Oct2021 20:22:44.874] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[18Oct2021 20:22:46.109] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: start
+[18Oct2021 20:22:46.110] [main/INFO] [net.minecraftforge.coremod.CoreMod.itemphysic/COREMODLOG]: find block call
+[18Oct2021 20:22:48.004] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18Oct2021 20:22:48.006] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18Oct2021 20:22:48.006] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18Oct2021 20:22:48.007] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[18Oct2021 20:22:48.276] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[18Oct2021 20:22:48.276] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.0 Initialized
+[18Oct2021 20:22:48.365] [modloading-worker-20/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
+[18Oct2021 20:22:48.425] [modloading-worker-8/INFO] [STDOUT/]: [cofh.core.init.CoreConfig:genClientConfig:110]: Client config gen
+[18Oct2021 20:22:48.519] [modloading-worker-29/INFO] [com.wuest.prefab.Prefab/]: Built TOML config for C:\Users\Delta\Desktop\Minecraft Server\Forge Server\config\prefab.toml
+[18Oct2021 20:22:48.521] [modloading-worker-29/INFO] [com.wuest.prefab.Prefab/]: Loaded TOML config file C:\Users\Delta\Desktop\Minecraft Server\Forge Server\config\prefab.toml
+[18Oct2021 20:22:48.600] [modloading-worker-29/INFO] [expandability/]: ExpandAbility here, who dis?
+[18Oct2021 20:22:48.704] [modloading-worker-19/INFO] [epicfight/]: Load Configuration File
+[18Oct2021 20:22:48.708] [modloading-worker-19/INFO] [epicfight/]: Load Configuration File
+[18Oct2021 20:22:48.946] [modloading-worker-2/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[18Oct2021 20:22:51.699] [main/INFO] [Botany Pots/]: Registered 34 Block entries in 1.42ms.
+[18Oct2021 20:22:52.485] [main/INFO] [Botany Pots/]: Registered 34 Item entries in 0.6ms.
+[18Oct2021 20:22:52.668] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.43ms.
+[18Oct2021 20:22:52.690] [main/INFO] [Botany Pots/]: Registered 1 TileEntityType entries in 0.16ms.
+[18Oct2021 20:22:52.861] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[18Oct2021 20:22:52.861] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.2ms.
+[18Oct2021 20:22:52.862] [main/INFO] [Botany Pots/]: Registered 3 IRecipeSerializer entries in 0.09ms.
+[18Oct2021 20:22:53.105] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityHippogryph from class com.github.alexthe666.iceandfire.entity.EntityPixie
+[18Oct2021 20:22:53.120] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.github.alexthe666.iceandfire.entity.EntityDreadThrall from class com.github.alexthe666.iceandfire.entity.EntityDreadKnight
+[18Oct2021 20:22:53.286] [main/INFO] [quark/]: Loading Module Chain Linkage
+[18Oct2021 20:22:53.288] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[18Oct2021 20:22:53.288] [main/INFO] [quark/]: Loading Module Chute
+[18Oct2021 20:22:53.288] [main/INFO] [quark/]: Loading Module Color Slime
+[18Oct2021 20:22:53.288] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[18Oct2021 20:22:53.289] [main/INFO] [quark/]: Loading Module Ender Watcher
+[18Oct2021 20:22:53.289] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[18Oct2021 20:22:53.290] [main/INFO] [quark/]: Loading Module Feeding Trough
+[18Oct2021 20:22:53.290] [main/INFO] [quark/]: Loading Module Gravisand
+[18Oct2021 20:22:53.290] [main/INFO] [quark/]: Loading Module Iron Rod
+[18Oct2021 20:22:53.291] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[18Oct2021 20:22:53.293] [main/INFO] [quark/]: Loading Module Metal Buttons
+[18Oct2021 20:22:53.294] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[18Oct2021 20:22:53.294] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[18Oct2021 20:22:53.295] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[18Oct2021 20:22:53.295] [main/INFO] [quark/]: Loading Module Weather Sensor
+[18Oct2021 20:22:53.296] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[18Oct2021 20:22:53.296] [main/INFO] [quark/]: Loading Module Burn Vines
+[18Oct2021 20:22:53.296] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[18Oct2021 20:22:53.297] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[18Oct2021 20:22:53.297] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[18Oct2021 20:22:53.297] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[18Oct2021 20:22:53.297] [main/INFO] [quark/]: Loading Module Framed Glass
+[18Oct2021 20:22:53.297] [main/INFO] [quark/]: Loading Module Gold Bars
+[18Oct2021 20:22:53.298] [main/INFO] [quark/]: Loading Module Grate
+[18Oct2021 20:22:53.298] [main/INFO] [quark/]: Loading Module Hedges
+[18Oct2021 20:22:53.298] [main/INFO] [quark/]: Loading Module Iron Plates
+[18Oct2021 20:22:53.298] [main/INFO] [quark/]: Loading Module Item Frames
+[18Oct2021 20:22:53.299] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[18Oct2021 20:22:53.299] [main/INFO] [quark/]: Loading Module Lit Lamp
+[18Oct2021 20:22:53.299] [main/INFO] [quark/]: Loading Module Midori
+[18Oct2021 20:22:53.299] [main/INFO] [quark/]: Loading Module More Brick Types
+[18Oct2021 20:22:53.299] [main/INFO] [quark/]: Loading Module More Potted Plants
+[18Oct2021 20:22:53.300] [main/INFO] [quark/]: Loading Module More Stone Variants
+[18Oct2021 20:22:53.300] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[18Oct2021 20:22:53.300] [main/INFO] [quark/]: Loading Module Paper Decor
+[18Oct2021 20:22:53.300] [main/INFO] [quark/]: Loading Module Quilted Wool
+[18Oct2021 20:22:53.301] [main/INFO] [quark/]: Loading Module Rope
+[18Oct2021 20:22:53.301] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[18Oct2021 20:22:53.302] [main/INFO] [quark/]: Loading Module Shingles
+[18Oct2021 20:22:53.302] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[18Oct2021 20:22:53.302] [main/INFO] [quark/]: Loading Module Stained Planks
+[18Oct2021 20:22:53.302] [main/INFO] [quark/]: Loading Module Stools
+[18Oct2021 20:22:53.303] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[18Oct2021 20:22:53.303] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[18Oct2021 20:22:53.303] [main/INFO] [quark/]: Loading Module Thatch
+[18Oct2021 20:22:53.303] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[18Oct2021 20:22:53.304] [main/INFO] [quark/]: Loading Module Turf
+[18Oct2021 20:22:53.304] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[18Oct2021 20:22:53.304] [main/INFO] [quark/]: Loading Module Variant Chests
+[18Oct2021 20:22:53.305] [main/INFO] [quark/]: Loading Module Variant Ladders
+[18Oct2021 20:22:53.305] [main/INFO] [quark/]: Loading Module Vertical Planks
+[18Oct2021 20:22:53.305] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[18Oct2021 20:22:53.305] [main/INFO] [quark/]: Loading Module Wooden Posts
+[18Oct2021 20:22:53.306] [main/INFO] [quark/]: Loading Module Chests In Boats
+[18Oct2021 20:22:53.306] [main/INFO] [quark/]: Loading Module Easy Transfering
+[18Oct2021 20:22:53.306] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[18Oct2021 20:22:53.307] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[18Oct2021 20:22:53.309] [main/INFO] [quark/]: Loading Module Item Sharing
+[18Oct2021 20:22:53.309] [main/INFO] [quark/]: Loading Module Right Click Armor
+[18Oct2021 20:22:53.310] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[18Oct2021 20:22:53.310] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[18Oct2021 20:22:53.311] [main/INFO] [quark/]: Loading Module Abacus
+[18Oct2021 20:22:53.311] [main/INFO] [quark/]: Loading Module Ambient Discs
+[18Oct2021 20:22:53.311] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[18Oct2021 20:22:53.312] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[18Oct2021 20:22:53.313] [main/INFO] [quark/]: Loading Module Camera
+[18Oct2021 20:22:53.313] [main/INFO] [quark/]: Loading Module Color Runes
+[18Oct2021 20:22:53.314] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[18Oct2021 20:22:53.314] [main/INFO] [quark/]: Loading Module Pickarang
+[18Oct2021 20:22:53.315] [main/INFO] [quark/]: Loading Module Seed Pouch
+[18Oct2021 20:22:53.315] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[18Oct2021 20:22:53.316] [main/INFO] [quark/]: Loading Module Trowel
+[18Oct2021 20:22:53.316] [main/INFO] [quark/]: Loading Module Skull Pikes
+[18Oct2021 20:22:53.318] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[18Oct2021 20:22:53.319] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[18Oct2021 20:22:53.320] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[18Oct2021 20:22:53.320] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[18Oct2021 20:22:53.321] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[18Oct2021 20:22:53.322] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[18Oct2021 20:22:53.323] [main/INFO] [quark/]: Loading Module Dirt To Path
+[18Oct2021 20:22:53.327] [main/INFO] [quark/]: Loading Module Double Door Opening
+[18Oct2021 20:22:53.327] [main/INFO] [quark/]: Loading Module Dragon Scales
+[18Oct2021 20:22:53.329] [main/INFO] [quark/]: Loading Module Emotes
+[18Oct2021 20:22:53.329] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[18Oct2021 20:22:53.330] [main/INFO] [quark/]: Loading Module Glass Shard
+[18Oct2021 20:22:53.330] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[18Oct2021 20:22:53.331] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[18Oct2021 20:22:53.331] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[18Oct2021 20:22:53.332] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[18Oct2021 20:22:53.332] [main/INFO] [quark/]: Loading Module Lock Rotation
+[18Oct2021 20:22:53.335] [main/INFO] [quark/]: Loading Module More Banner Layers
+[18Oct2021 20:22:53.336] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[18Oct2021 20:22:53.337] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[18Oct2021 20:22:53.339] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[18Oct2021 20:22:53.342] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[18Oct2021 20:22:53.343] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[18Oct2021 20:22:53.343] [main/INFO] [quark/]: Loading Module Sign Editing
+[18Oct2021 20:22:53.344] [main/INFO] [quark/]: Loading Module Simple Harvest
+[18Oct2021 20:22:53.344] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[18Oct2021 20:22:53.345] [main/INFO] [quark/]: Loading Module Springy Slime
+[18Oct2021 20:22:53.345] [main/INFO] [quark/]: Loading Module Utility Recipes
+[18Oct2021 20:22:53.346] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[18Oct2021 20:22:53.346] [main/INFO] [quark/]: Loading Module Big Dungeon
+[18Oct2021 20:22:53.347] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[18Oct2021 20:22:53.347] [main/INFO] [quark/]: Loading Module Biotite
+[18Oct2021 20:22:53.348] [main/INFO] [quark/]: Loading Module Blossom Trees
+[18Oct2021 20:22:53.349] [main/INFO] [quark/]: Loading Module Cave Roots
+[18Oct2021 20:22:53.349] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[18Oct2021 20:22:53.349] [main/INFO] [quark/]: Loading Module Crevices
+[18Oct2021 20:22:53.349] [main/INFO] [quark/]: Loading Module Deepslate
+[18Oct2021 20:22:53.350] [main/INFO] [quark/]: Loading Module Fairy Rings
+[18Oct2021 20:22:53.350] [main/INFO] [quark/]: Loading Module Mega Caves
+[18Oct2021 20:22:53.350] [main/INFO] [quark/]: Loading Module Monster Box
+[18Oct2021 20:22:53.351] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[18Oct2021 20:22:53.351] [main/INFO] [quark/]: Loading Module New Stone Types
+[18Oct2021 20:22:53.352] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[18Oct2021 20:22:53.352] [main/INFO] [quark/]: Loading Module Speleothems
+[18Oct2021 20:22:53.352] [main/INFO] [quark/]: Loading Module Spiral Spires
+[18Oct2021 20:22:53.353] [main/INFO] [quark/]: Loading Module Underground Clay
+[18Oct2021 20:22:53.353] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[18Oct2021 20:22:53.354] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[18Oct2021 20:22:53.357] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[18Oct2021 20:22:53.357] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[18Oct2021 20:22:53.357] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[18Oct2021 20:22:53.358] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[18Oct2021 20:22:53.358] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[18Oct2021 20:22:53.358] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[18Oct2021 20:22:53.358] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[18Oct2021 20:22:53.359] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[18Oct2021 20:22:53.360] [main/INFO] [quark/]: Loading Module Crabs
+[18Oct2021 20:22:53.362] [main/INFO] [quark/]: Loading Module Forgotten
+[18Oct2021 20:22:53.363] [main/INFO] [quark/]: Loading Module Foxhound
+[18Oct2021 20:22:53.364] [main/INFO] [quark/]: Loading Module Frogs
+[18Oct2021 20:22:53.364] [main/INFO] [quark/]: Loading Module Stonelings
+[18Oct2021 20:22:53.364] [main/INFO] [quark/]: Loading Module Toretoise
+[18Oct2021 20:22:53.364] [main/INFO] [quark/]: Loading Module Wraith
+[18Oct2021 20:22:53.364] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[18Oct2021 20:22:53.365] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[18Oct2021 20:22:53.365] [main/INFO] [quark/]: Loading Module Chest Searching
+[18Oct2021 20:22:53.365] [main/INFO] [quark/]: Loading Module Greener Grass
+[18Oct2021 20:22:53.366] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[18Oct2021 20:22:53.366] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[18Oct2021 20:22:53.366] [main/INFO] [quark/]: Loading Module Usage Ticker
+[18Oct2021 20:22:53.366] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[18Oct2021 20:22:53.366] [main/INFO] [quark/]: Loading Module Backpack
+[18Oct2021 20:22:53.367] [main/INFO] [quark/]: Loading Module Crate
+[18Oct2021 20:22:53.367] [main/INFO] [quark/]: Loading Module Magnets
+[18Oct2021 20:22:53.367] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[18Oct2021 20:22:53.368] [main/INFO] [quark/]: Loading Module Pipes
+[18Oct2021 20:22:53.368] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[18Oct2021 20:22:53.368] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[18Oct2021 20:22:53.368] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[18Oct2021 20:22:53.369] [main/INFO] [quark/]: Loading Module Game Nerfs
+[18Oct2021 20:22:53.369] [main/INFO] [quark/]: Loading Module Narrator Readout
+[18Oct2021 20:22:53.369] [main/INFO] [quark/]: Loading Module Overlay Shader
+[18Oct2021 20:22:53.370] [main/INFO] [quark/]: Loading Module Pallet
+[18Oct2021 20:22:53.373] [main/INFO] [quark/]: Loading Module Shiba
+[18Oct2021 20:22:53.424] [modloading-worker-29/INFO] [Bookshelf/]: Registering 3 command argument types.
+[18Oct2021 20:22:53.424] [modloading-worker-29/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[18Oct2021 20:22:53.445] [modloading-worker-1/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[18Oct2021 20:22:53.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Starting version check at https://raw.githubusercontent.com/hammertater/treechop/main/update.json
+[18Oct2021 20:22:53.462] [modloading-worker-23/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Common Setup Method registered.
+[18Oct2021 20:22:53.468] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_chicken, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.470] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_rabbit, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.473] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_sheep, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.474] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_llama, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.475] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_cow, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.475] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_mooshroom, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.476] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_moobloom, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.477] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_pig, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.479] [modloading-worker-19/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eanimod:enhanced_horse, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.524] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.532] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.535] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.536] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.537] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.548] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.551] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.552] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.554] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.554] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [treechop] Found status: UP_TO_DATE Current: 0.14.6 Target: null
+[18Oct2021 20:22:53.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Starting version check at http://changelogs.moddinglegacy.com/miners-helmet.json
+[18Oct2021 20:22:53.893] [main/INFO] [TimeControl/]: Registered custom gamerule
+[18Oct2021 20:22:53.894] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astikorcarts:postilion, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.902] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for switchbow:entitylittleirongolem, use EntityAttributeCreationEvent instead.
+[18Oct2021 20:22:53.947] [modloading-worker-2/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18Oct2021 20:22:54.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_helmet] Found status: BETA Current: 2.0.1 Target: null
+[18Oct2021 20:22:54.251] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prefab] Starting version check at https://raw.githubusercontent.com/Brian-Wuest/MC-Prefab/Main/changeLog.json
+[18Oct2021 20:22:54.309] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prefab] Found status: UP_TO_DATE Current: 1.6.5.12 Target: null
+[18Oct2021 20:22:54.309] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[18Oct2021 20:22:54.441] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18Oct2021 20:22:54.449] [modloading-worker-29/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Got IMC []
+[18Oct2021 20:22:54.469] [modloading-worker-8/INFO] [its_meow.betteranimalsplus.BetterAnimalsPlusMod/]: Finished crazy bird creation!
+[18Oct2021 20:22:54.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 10.3.29 Target: 10.3.29
+[18Oct2021 20:22:54.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Starting version check at https://updates.blamejared.com/get?n=botanypots&gv=1.16.5
+[18Oct2021 20:22:54.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Found status: BETA_OUTDATED Current: 7.0.17 Target: 7.1.27
+[18Oct2021 20:22:54.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18Oct2021 20:22:55.051] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.0 Target: null
+[18Oct2021 20:22:55.051] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scuba_gear] Starting version check at http://changelogs.moddinglegacy.com/scuba-gear.json
+[18Oct2021 20:22:55.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scuba_gear] Found status: UP_TO_DATE Current: 1.0.3 Target: null
+[18Oct2021 20:22:55.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings2/master/version.json
+[18Oct2021 20:22:55.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dsurround] Found status: BETA Current: 1.16.4-4.0.4.2 Target: null
+[18Oct2021 20:22:55.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[18Oct2021 20:22:56.276] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.16.5-1.0.6 Target: null
+[18Oct2021 20:22:56.276] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[18Oct2021 20:22:56.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: UP_TO_DATE Current: 1.3.1 Target: null
+[18Oct2021 20:22:56.463] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [physicsmod] Starting version check at http://diebuddies.net/
+[18Oct2021 20:23:01.223] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18Oct2021 20:23:01.307] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:customxplevels
+[18Oct2021 20:23:01.307] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:betterweather
+[18Oct2021 20:23:01.469] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[18Oct2021 20:23:01.480] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[18Oct2021 20:23:01.481] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[18Oct2021 20:23:01.481] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[18Oct2021 20:23:01.482] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Oct2021 20:23:01.489] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Oct2021 20:23:01.489] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2021 20:23:01.490] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2021 20:23:01.490] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Oct2021 20:23:01.491] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2021 20:23:01.497] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, TreeChop-1.16.4-0.14.6-fixed.jar, mining_helmet-1.16.5-2.0.1.jar, bagofyurting-1.16.4-1.2.0.1.jar, spiders-2.0-1.16.4-1.0.4.jar, jei-1.16.5-7.7.1.126.jar, prefab-1.6.5.12.jar, abnormals_core-1.16.5-3.3.0.jar, InsaneLib-1.3.1-mc1.16.5.jar, extraboats-1.16.5-2.1.0.jar, comforts-forge-1.16.5-4.0.1.3.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.12.1.jar, Artifacts-1.16.5-2.10.3.jar, RegenControll-[1.16.4]-2.0.jar, betteranimalsplus-1.16.5-10.2.0.jar, Bookshelf-Forge-1.16.5-10.3.29.jar, BotanyPots-1.16.5-7.0.17.jar, musketmod-1.16.5-forge-1.4.1.jar, sophisticatedbackpacks-1.16.5-3.4.2.354.jar, secretrooms-1.16.5-1.1.3.jar, iceandfire-2.1.9-1.16.5.jar, carryon-1.16.5-1.15.5.15.jar, forge-1.16.5-36.2.0-universal.jar, scuba-gear-1.16.5-1.0.3.jar, subwild-1.3.0.jar, DynamicSurroundings-1.16.4-4.0.4.2.jar, corpse-1.16.5-1.0.6.jar, cofh_core-1.16.5-1.3.1.jar, repurposed_structures_forge-3.3.0+1.16.5.jar, physics-mod-1.0.6_forge.jar, ToolBelt-1.16.5-1.16.0.jar, BiomesOPlenty-1.16.5-13.1.0.477-universal.jar, projectvibrantjourneys-1.16.5-3.2.10.jar, endremastered-forge-R4.1.1.jar, archers_paradox-1.16.5-1.3.1.jar, GeneticAnimals-0_6_29.jar, EnchantingConvergence-1.16.5-1.0.0.jar, astikorcarts-1.16.5-1.1.1.jar, mostructures-forge-1.2.0-1.16.5.jar, Xaeros_Minimap_21.19.0_Forge_1.16.5.jar, Croptopia-1.16.4-FORGE-1.4.2.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-319.jar, findercompass-1.16.2.1.jar, ToughAsNails-1.16.5-4.1.0.9-universal.jar, survivaloverhaul-1.16.5-0.4.1b.jar, curios-forge-1.16.5-4.0.5.3.jar, SimplyJetpacks2-1.16.5-2.6.11.2.jar, Wesley's Roguelike Dungeons (Version 1.0).jar, feudalw-2.2.2.jar, cfm-7.0.0pre22-1.16.3.jar, EnhancedAI-1.1.2-mc1.16.5.jar, switchbow-1.7.jar, expandability-2.0.1-forge.jar, nutritionalbalance-1.16.5-0.7.7.jar, timecontrol-1.16.5-1.1.2.0.jar, EpicFightMod-1.16.5-5.1.3.jar, CreativeCore_v2.2.1_mc1.16.5.jar, editmobdrops-1.16.4-1.3.3.jar, SereneSeasons-1.16.5-4.0.1.121-universal.jar, ItemPhysic_v1.4.18_mc1.16.5.jar
+[18Oct2021 20:23:02.194] [Worker-Main-13/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Loot Modification Manager has loaded 0 sets of modifiers
+[18Oct2021 20:23:02.202] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:diamond_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_spear'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.241] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:iron_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:iron_spear'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.252] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:wood_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:wood_warhammer'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.257] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe switchbow:recipearrowfirework
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'switchbow:recipearrowfirework'
+	at net.minecraft.item.crafting.RecipeManager.func_241449_a_(RecipeManager.java:140) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:139) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.261] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:stone_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:stone_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.264] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:stone_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:stone_warhammer'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.271] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:wood_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:wood_spear'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.273] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe biomesoplenty:soil/ash
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:ash_block'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.soil.SoilSerializer.read(SoilSerializer.java:26) ~[botanypots:7.0.17]
+	at net.darkhax.botanypots.soil.SoilSerializer.func_199425_a_(SoilSerializer.java:19) ~[botanypots:7.0.17]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.274] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:diamond_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_warhammer'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.275] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe simplyjetpacks:sj/particle_rainbow
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:dusts/coal'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.278] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:gold_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:gold_warhammer'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.280] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_1_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.280] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:iron_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:iron_warhammer'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.285] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:iron_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:iron_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.287] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:gold_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:gold_spear'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.305] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe simplyjetpacks:sj/particle_default
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:dusts/coal'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.308] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_3_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.316] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_5_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.319] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_4_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.324] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:belt_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.325] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_6_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.327] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:netherite_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:70) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:68) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.330] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:netherite_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_pike'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:70) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:68) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.334] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.350] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_7_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.351] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:gold_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:gold_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.353] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe toolbelt:pouch_upgrade_2_via_sewing as it's serializer returned null
+[18Oct2021 20:23:02.355] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:netherite_warhammer_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_warhammer'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:70) ~[?:?]
+	at net.minecraft.item.crafting.SmithingRecipe$Serializer.func_199425_a_(SmithingRecipe.java:68) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.358] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:stone_spear_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:stone_spear'
+	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.ShapedRecipe.func_199798_a(ShapedRecipe.java:261) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:281) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.359] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe simplyjetpacks:sj/particle_smoke
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:dusts/coal'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.361] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:diamond_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:diamond_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.361] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe feudalw:wood_pike_r
+com.google.gson.JsonSyntaxException: Unknown item 'feudalw:wood_spear'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.366] [Worker-Main-13/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe simplyjetpacks:sj/particle_none
+com.google.gson.JsonSyntaxException: Unknown item tag 'forge:dusts/coal'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.func_192408_a(ShapedRecipe.java:252) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.func_199425_a_(ShapedRecipe.java:272) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[18Oct2021 20:23:02.372] [Worker-Main-13/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 13 recipes
+[18Oct2021 20:23:02.372] [Worker-Main-13/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Advancement Modification Manager has loaded 0 sets of modifiers
+[18Oct2021 20:23:03.037] [Worker-Main-13/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {alexsmobs:gameplay/seal_reward}.pools[0].entries[1].functions[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[18Oct2021 20:23:03.107] [Worker-Main-13/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1973 advancements
+[18Oct2021 20:23:03.111] [Worker-Main-13/INFO] [ewewukek.musketmod.MusketMod/]: Configuration has been loaded
+[18Oct2021 20:23:03.123] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:leather_helmet
+[18Oct2021 20:23:03.123] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_helmet
+[18Oct2021 20:23:03.124] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_shovel
+[18Oct2021 20:23:03.124] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:chainmail_helmet
+[18Oct2021 20:23:03.124] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_shovel
+[18Oct2021 20:23:03.124] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:golden_longsword
+[18Oct2021 20:23:03.124] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:netherite_greatsword
+[18Oct2021 20:23:03.125] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:stone_axe
+[18Oct2021 20:23:03.125] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_leggings
+[18Oct2021 20:23:03.125] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_pickaxe
+[18Oct2021 20:23:03.125] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_sword
+[18Oct2021 20:23:03.125] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_helmet
+[18Oct2021 20:23:03.126] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:iron_greatsword
+[18Oct2021 20:23:03.126] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_chestplate
+[18Oct2021 20:23:03.126] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:leather_chestplate
+[18Oct2021 20:23:03.126] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_chestplate
+[18Oct2021 20:23:03.126] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_hoe
+[18Oct2021 20:23:03.127] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_sword
+[18Oct2021 20:23:03.127] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:diamond_tachi
+[18Oct2021 20:23:03.127] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:trident
+[18Oct2021 20:23:03.127] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:chainmail_boots
+[18Oct2021 20:23:03.127] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_pickaxe
+[18Oct2021 20:23:03.128] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:chainmail_leggings
+[18Oct2021 20:23:03.128] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_boots
+[18Oct2021 20:23:03.128] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_hoe
+[18Oct2021 20:23:03.128] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:golden_greatsword
+[18Oct2021 20:23:03.128] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:netherite_longsword
+[18Oct2021 20:23:03.129] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_sword
+[18Oct2021 20:23:03.129] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_leggings
+[18Oct2021 20:23:03.129] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_shovel
+[18Oct2021 20:23:03.129] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_axe
+[18Oct2021 20:23:03.129] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:golden_tachi
+[18Oct2021 20:23:03.130] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:wooden_axe
+[18Oct2021 20:23:03.130] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_boots
+[18Oct2021 20:23:03.130] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:netherite_tachi
+[18Oct2021 20:23:03.130] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:crossbow
+[18Oct2021 20:23:03.131] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_boots
+[18Oct2021 20:23:03.131] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_helmet
+[18Oct2021 20:23:03.131] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:diamond_greatsword
+[18Oct2021 20:23:03.131] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:stone_sword
+[18Oct2021 20:23:03.131] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_leggings
+[18Oct2021 20:23:03.132] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:leather_leggings
+[18Oct2021 20:23:03.132] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:golden_spear
+[18Oct2021 20:23:03.132] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_sword
+[18Oct2021 20:23:03.132] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_pickaxe
+[18Oct2021 20:23:03.133] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_axe
+[18Oct2021 20:23:03.135] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:iron_tachi
+[18Oct2021 20:23:03.135] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:diamond_longsword
+[18Oct2021 20:23:03.135] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:wooden_pickaxe
+[18Oct2021 20:23:03.135] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:wooden_shovel
+[18Oct2021 20:23:03.136] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:stone_greatsword
+[18Oct2021 20:23:03.136] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:stray_pants
+[18Oct2021 20:23:03.136] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:leather_boots
+[18Oct2021 20:23:03.136] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_hoe
+[18Oct2021 20:23:03.136] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:stone_shovel
+[18Oct2021 20:23:03.137] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:stone_pickaxe
+[18Oct2021 20:23:03.137] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_shovel
+[18Oct2021 20:23:03.137] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:knuckle
+[18Oct2021 20:23:03.137] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:netherite_dagger
+[18Oct2021 20:23:03.138] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_pickaxe
+[18Oct2021 20:23:03.138] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:wooden_hoe
+[18Oct2021 20:23:03.138] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:diamond_dagger
+[18Oct2021 20:23:03.138] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_boots
+[18Oct2021 20:23:03.138] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:stone_spear
+[18Oct2021 20:23:03.139] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_axe
+[18Oct2021 20:23:03.139] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:iron_dagger
+[18Oct2021 20:23:03.139] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:chainmail_chestplate
+[18Oct2021 20:23:03.139] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_leggings
+[18Oct2021 20:23:03.140] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:diamond_spear
+[18Oct2021 20:23:03.140] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:iron_longsword
+[18Oct2021 20:23:03.140] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:stray_robe
+[18Oct2021 20:23:03.140] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_helmet
+[18Oct2021 20:23:03.141] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:katana
+[18Oct2021 20:23:03.141] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:wooden_sword
+[18Oct2021 20:23:03.141] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:golden_dagger
+[18Oct2021 20:23:03.141] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:iron_spear
+[18Oct2021 20:23:03.141] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:stray_hat
+[18Oct2021 20:23:03.142] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:golden_chestplate
+[18Oct2021 20:23:03.142] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:stone_hoe
+[18Oct2021 20:23:03.142] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:bow
+[18Oct2021 20:23:03.143] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:diamond_axe
+[18Oct2021 20:23:03.143] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:netherite_hoe
+[18Oct2021 20:23:03.143] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for epicfight:netherite_spear
+[18Oct2021 20:23:03.143] [Worker-Main-13/INFO] [epicfight/]: register weapon capability for minecraft:iron_chestplate
+[18Oct2021 20:23:03.147] [Worker-Main-13/ERROR] [sophisticatedbackpacks/]: Caught exception while loading sophisticatedbackpacks:tool_types : com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[18Oct2021 20:23:04.499] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, forge:ores/biotite, quark:planks_vertical_slab, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, biomesoplenty:hellbark_logs, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, forge:storage_blocks/compressed_dirt, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, alexsmobs:roadrunner_spawns, bagofyurting:whitelist, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, alexsmobs:alligator_snapping_turtle_spawns, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, subwild:diamond_ores, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, projectvibrantjourneys:aspen_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, projectvibrantjourneys:palm_logs, minecraft:dark_oak_logs, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:glass_panes/colorless, projectvibrantjourneys:mangrove_logs, alexsmobs:drops_bananas, projectvibrantjourneys:cottonwood_logs, minecraft:fences, minecraft:saplings, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, minecraft:banners, subwild:redstone_ores, forge:mushroom_stems, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, alexsmobs:rattlesnake_spawns, minecraft:wall_post_override, subwild:emerald_ores, forge:obsidian, forge:enderman_place_on_blacklist, biomesoplenty:mahogany_logs, minecraft:crosspillar, alexsmobs:kangaroo_spawns, alexsmobs:seal_digables, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, forge:glass/magenta, forge:mushroom_caps, spiderstpo:non_climbable, alexsmobs:mimic_octopus_spawns, minecraft:hoglin_repellents, forge:ores/coal, minecraft:fire, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, carryon:block_whitelist, subwild:iron_ores, minecraft:mineable/shovel, alexsmobs:drops_acacia_blossoms, forge:storage_blocks/end_crystal, forge:huge_mushrooms, forge:sand/colorless, croptopia:crops, minecraft:trapdoors, alexsmobs:komodo_dragon_spawns, forge:glass/cyan, forge:storage_blocks/double_compressed_obsidian, alexsmobs:crow_fears, quark:crab_spawnable, alexsmobs:mantis_shrimp_spawns, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, alexsmobs:lobster_spawns, subwild:molten_blocks, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:glass/green, alexsmobs:cachalot_whale_breakables, forge:ores/end_crystal, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, minecraft:underwater_bonemeals, forge:sand/red, minecraft:impermeable, alexsmobs:emu_spawns, minecraft:sand, forge:end_stones, survivaloverhaul:free_climbable, forge:glass/brown, biomesoplenty:fir_logs, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:storage_blocks/compressed_stone, forge:fences/wooden, sereneseasons:summer_crops, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, forge:glass/light_gray, treechop:choppables, forge:ores/quartz, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, alexsmobs:platypus_spawns, forge:glass/blue, minecraft:small_flowers, minecraft:wooden_trapdoors, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, treechop:choppables_except_mushrooms, forge:storage_blocks/redstone, sereneseasons:winter_crops, alexsmobs:grizzly_beehive, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, minecraft:logs, treechop:chopped_logs, forge:stone, alexsmobs:crocodile_spawns, minecraft:valid_spawn, forge:storage_blocks/triple_compressed_stone, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, sereneseasons:autumn_crops, subwild:gold_ores, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, projectvibrantjourneys:maple_logs, alexsmobs:soul_vulture_spawns, biomesoplenty:cherry_logs, quark:vertical_slab, forge:storage_blocks/compressed_obsidian, secretroomsmod:one_way_glass_cull, minecraft:wart_blocks, forge:storage_blocks/compressed_glow_stone, alexsmobs:leafcutter_ant_breakables, quark:hedges, alexsmobs:gorilla_breakables, forge:storage_blocks/double_compressed_dirt, subwild:speleothems, minecraft:beacon_base_blocks, alexsmobs:orca_breakables, alexsmobs:seal_spawns, projectvibrantjourneys:baobab_logs, minecraft:shulker_boxes, alexsmobs:mungus_replace_mushroom, minecraft:anvil, forge:ores/silver, minecraft:birch_logs, forge:storage_blocks/double_compressed_glow_stone, forge:sand, sereneseasons:greenhouse_glass, bagofyurting:blacklist, minecraft:wall_corals, iceandfire:myrmex_harvestables, minecraft:blockidentifiers, forge:ores/mercury, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, alexsmobs:elephant_foodblocks, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, biomesoplenty:palm_logs, forge:glass/black, biomesoplenty:dead_logs, minecraft:portals, alexsmobs:mungus_replace_nether, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, alexsmobs:crow_foodblocks, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:glass_panes/lime, bagofyurting:replaceable, sereneseasons:spring_crops, endrem:end_crystal_gen, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, projectvibrantjourneys:tamarack_logs, subwild:coal_ores, minecraft:corals, minecraft:buttons, minecraft:flowers, alexsmobs:void_worm_breakables, quark:foxhound_spawnable, minecraft:planks, forge:cobblestone, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, alexsmobs:soul_vulture_perches, forge:storage_blocks/double_compressed_stone, minecraft:strider_warm_blocks, forge:storage_blocks/gold, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores, projectvibrantjourneys:pine_logs, minecraft:bee_growables, minecraft:wooden_pressure_plates, subwild:lapis_ores, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, forge:storage_blocks/diamond, minecraft:nylium, subwild:foxfire, alexsmobs:warped_mosco_breakables, minecraft:gold_ores, forge:glass_panes/pink, forge:netherrack, forge:terracotta, treechop:leaves_like]
+[18Oct2021 20:23:04.502] [main/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, forge:ores/biotite, quark:planks_vertical_slab, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, biomesoplenty:hellbark_logs, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, forge:storage_blocks/compressed_dirt, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, alexsmobs:roadrunner_spawns, bagofyurting:whitelist, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, alexsmobs:alligator_snapping_turtle_spawns, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, subwild:diamond_ores, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, projectvibrantjourneys:aspen_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, projectvibrantjourneys:palm_logs, minecraft:dark_oak_logs, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:glass_panes/colorless, projectvibrantjourneys:mangrove_logs, alexsmobs:drops_bananas, projectvibrantjourneys:cottonwood_logs, minecraft:fences, minecraft:saplings, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, minecraft:banners, subwild:redstone_ores, forge:mushroom_stems, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, alexsmobs:rattlesnake_spawns, minecraft:wall_post_override, subwild:emerald_ores, forge:obsidian, forge:enderman_place_on_blacklist, biomesoplenty:mahogany_logs, minecraft:crosspillar, alexsmobs:kangaroo_spawns, alexsmobs:seal_digables, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, forge:glass/magenta, forge:mushroom_caps, spiderstpo:non_climbable, alexsmobs:mimic_octopus_spawns, minecraft:hoglin_repellents, forge:ores/coal, minecraft:fire, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, carryon:block_whitelist, subwild:iron_ores, minecraft:mineable/shovel, alexsmobs:drops_acacia_blossoms, forge:storage_blocks/end_crystal, forge:huge_mushrooms, forge:sand/colorless, croptopia:crops, minecraft:trapdoors, alexsmobs:komodo_dragon_spawns, forge:glass/cyan, forge:storage_blocks/double_compressed_obsidian, alexsmobs:crow_fears, quark:crab_spawnable, alexsmobs:mantis_shrimp_spawns, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, alexsmobs:lobster_spawns, subwild:molten_blocks, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:glass/green, alexsmobs:cachalot_whale_breakables, forge:ores/end_crystal, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, minecraft:underwater_bonemeals, forge:sand/red, minecraft:impermeable, alexsmobs:emu_spawns, minecraft:sand, forge:end_stones, survivaloverhaul:free_climbable, forge:glass/brown, biomesoplenty:fir_logs, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:storage_blocks/compressed_stone, forge:fences/wooden, sereneseasons:summer_crops, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, forge:glass/light_gray, treechop:choppables, forge:ores/quartz, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, alexsmobs:platypus_spawns, forge:glass/blue, minecraft:small_flowers, minecraft:wooden_trapdoors, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, treechop:choppables_except_mushrooms, forge:storage_blocks/redstone, sereneseasons:winter_crops, alexsmobs:grizzly_beehive, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, minecraft:logs, treechop:chopped_logs, forge:stone, alexsmobs:crocodile_spawns, minecraft:valid_spawn, forge:storage_blocks/triple_compressed_stone, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, sereneseasons:autumn_crops, subwild:gold_ores, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, projectvibrantjourneys:maple_logs, alexsmobs:soul_vulture_spawns, biomesoplenty:cherry_logs, quark:vertical_slab, forge:storage_blocks/compressed_obsidian, secretroomsmod:one_way_glass_cull, minecraft:wart_blocks, forge:storage_blocks/compressed_glow_stone, alexsmobs:leafcutter_ant_breakables, quark:hedges, alexsmobs:gorilla_breakables, forge:storage_blocks/double_compressed_dirt, subwild:speleothems, minecraft:beacon_base_blocks, alexsmobs:orca_breakables, alexsmobs:seal_spawns, projectvibrantjourneys:baobab_logs, minecraft:shulker_boxes, alexsmobs:mungus_replace_mushroom, minecraft:anvil, forge:ores/silver, minecraft:birch_logs, forge:storage_blocks/double_compressed_glow_stone, forge:sand, sereneseasons:greenhouse_glass, bagofyurting:blacklist, minecraft:wall_corals, iceandfire:myrmex_harvestables, minecraft:blockidentifiers, forge:ores/mercury, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, alexsmobs:elephant_foodblocks, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, biomesoplenty:palm_logs, forge:glass/black, biomesoplenty:dead_logs, minecraft:portals, alexsmobs:mungus_replace_nether, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, alexsmobs:crow_foodblocks, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:glass_panes/lime, bagofyurting:replaceable, sereneseasons:spring_crops, endrem:end_crystal_gen, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, projectvibrantjourneys:tamarack_logs, subwild:coal_ores, minecraft:corals, minecraft:buttons, minecraft:flowers, alexsmobs:void_worm_breakables, quark:foxhound_spawnable, minecraft:planks, forge:cobblestone, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, alexsmobs:soul_vulture_perches, forge:storage_blocks/double_compressed_stone, minecraft:strider_warm_blocks, forge:storage_blocks/gold, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores, projectvibrantjourneys:pine_logs, minecraft:bee_growables, minecraft:wooden_pressure_plates, subwild:lapis_ores, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, forge:storage_blocks/diamond, minecraft:nylium, subwild:foxfire, alexsmobs:warped_mosco_breakables, minecraft:gold_ores, forge:glass_panes/pink, forge:netherrack, forge:terracotta, treechop:leaves_like]
+[18Oct2021 20:23:04.785] [main/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod customxplevels which appears to be missing, things may not work well
+[18Oct2021 20:23:04.785] [main/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod corpse version 1.16.5-1.0.5 and it is now at version 1.16.5-1.0.6, things may not work well
+[18Oct2021 20:23:04.787] [main/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod repurposed_structures version 3.2.9+1.16.5 and it is now at version 3.3.0+1.16.5, things may not work well
+[18Oct2021 20:23:04.788] [main/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod xaerominimap version 21.18.0 and it is now at version 21.19.0, things may not work well
+[18Oct2021 20:23:04.789] [main/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod betterweather which appears to be missing, things may not work well
+[18Oct2021 20:23:04.840] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	betterweather:blizzard_loop1: 1265
+	betterweather:blizzard_loop2: 1266
+	betterweather:blizzard_loop3: 1267
+	betterweather:blizzard_loop4: 1268
+	betterweather:blizzard_loop5: 1269
+	betterweather:blizzard_loop6: 1270
+	betterweather:blizzard_loop7: 1271
+
+[18Oct2021 20:23:04.842] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 7 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[18Oct2021 20:23:04.842] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    betterweather:blizzard_loop1
+    betterweather:blizzard_loop2
+    betterweather:blizzard_loop3
+    betterweather:blizzard_loop4
+    betterweather:blizzard_loop5
+    betterweather:blizzard_loop6
+    betterweather:blizzard_loop7
+
+
+[18Oct2021 20:23:04.843] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[18Oct2021 20:23:04.846] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: sereneseasons:season_sensor Expected: 2770 Got: 3528
+[18Oct2021 20:23:04.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: sereneseasons:season_sensor Expected: 1265 Got: 2654
+[18Oct2021 20:23:04.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:katana Expected: 1465 Got: 2655
+[18Oct2021 20:23:04.847] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:katana_sheath Expected: 1466 Got: 2656
+[18Oct2021 20:23:04.848] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stone_greatsword Expected: 1467 Got: 2657
+[18Oct2021 20:23:04.849] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_greatsword Expected: 1468 Got: 2658
+[18Oct2021 20:23:04.850] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_greatsword Expected: 1469 Got: 5611
+[18Oct2021 20:23:04.851] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_greatsword Expected: 1470 Got: 5612
+[18Oct2021 20:23:04.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_greatsword Expected: 1471 Got: 5613
+[18Oct2021 20:23:04.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stone_spear Expected: 1472 Got: 5614
+[18Oct2021 20:23:04.853] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_spear Expected: 1473 Got: 5615
+[18Oct2021 20:23:04.854] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_spear Expected: 1474 Got: 5616
+[18Oct2021 20:23:04.855] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_spear Expected: 1475 Got: 5617
+[18Oct2021 20:23:04.856] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_spear Expected: 1476 Got: 5618
+[18Oct2021 20:23:04.857] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_tachi Expected: 1477 Got: 5619
+[18Oct2021 20:23:04.859] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_tachi Expected: 1478 Got: 5620
+[18Oct2021 20:23:04.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_tachi Expected: 1479 Got: 5621
+[18Oct2021 20:23:04.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_tachi Expected: 1480 Got: 5622
+[18Oct2021 20:23:04.860] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_longsword Expected: 1481 Got: 5623
+[18Oct2021 20:23:04.861] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_longsword Expected: 1482 Got: 5624
+[18Oct2021 20:23:04.861] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_longsword Expected: 1483 Got: 5625
+[18Oct2021 20:23:04.862] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_longsword Expected: 1484 Got: 5626
+[18Oct2021 20:23:04.862] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:iron_dagger Expected: 1485 Got: 5627
+[18Oct2021 20:23:04.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:golden_dagger Expected: 1486 Got: 5628
+[18Oct2021 20:23:04.863] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:diamond_dagger Expected: 1487 Got: 5629
+[18Oct2021 20:23:04.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:netherite_dagger Expected: 1488 Got: 5630
+[18Oct2021 20:23:04.866] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:knuckle Expected: 1489 Got: 5631
+[18Oct2021 20:23:04.867] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_hat Expected: 1490 Got: 5632
+[18Oct2021 20:23:04.868] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_robe Expected: 1491 Got: 5633
+[18Oct2021 20:23:04.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:stray_pants Expected: 1492 Got: 5634
+[18Oct2021 20:23:04.870] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: epicfight:skillbook Expected: 1493 Got: 5635
+[18Oct2021 20:23:04.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: sereneseasons:ss_icon Expected: 4662 Got: 5636
+[18Oct2021 20:23:04.874] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: sereneseasons:calendar Expected: 4663 Got: 5637
+[18Oct2021 20:23:04.875] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: epicfight:stun_immunity Expected: 0 Got: 91
+[18Oct2021 20:23:04.876] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blade Expected: 992 Got: 1371
+[18Oct2021 20:23:04.876] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blunt Expected: 993 Got: 1372
+[18Oct2021 20:23:04.877] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blunt_hard Expected: 994 Got: 1373
+[18Oct2021 20:23:04.877] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.clash Expected: 995 Got: 1374
+[18Oct2021 20:23:04.878] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.eviscerate Expected: 996 Got: 1375
+[18Oct2021 20:23:04.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.hit.blade_rush_last Expected: 997 Got: 1376
+[18Oct2021 20:23:04.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.common.sword_in Expected: 998 Got: 1377
+[18Oct2021 20:23:04.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.common.whoosh Expected: 999 Got: 1378
+[18Oct2021 20:23:04.879] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.common.whoosh_hard Expected: 1000 Got: 1379
+[18Oct2021 20:23:04.881] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: epicfight:entity.common.whoosh_sharp Expected: 1001 Got: 1380
+[18Oct2021 20:23:06.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[18Oct2021 20:23:06.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[18Oct2021 20:23:06.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[18Oct2021 20:23:06.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Oct2021 20:23:06.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[18Oct2021 20:23:06.692] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[18Oct2021 20:23:06.980] [Server thread/INFO] [STDOUT/]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [minecraft:soul_fire_base_blocks, forge:glass_panes/magenta, projectvibrantjourneys:sakura_logs, forge:ores/biotite, quark:planks_vertical_slab, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, biomesoplenty:hellbark_logs, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, forge:storage_blocks/compressed_dirt, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, alexsmobs:roadrunner_spawns, bagofyurting:whitelist, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, alexsmobs:alligator_snapping_turtle_spawns, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, subwild:diamond_ores, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, forge:glass_panes/brown, forge:glass_panes/green, projectvibrantjourneys:aspen_logs, carryon:block_blacklist, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, forge:fence_gates, projectvibrantjourneys:palm_logs, minecraft:dark_oak_logs, quark:ladders, minecraft:coral_plants, forge:glass_panes, minecraft:non_flammable_wood, forge:sandstone, forge:glass_panes/colorless, projectvibrantjourneys:mangrove_logs, alexsmobs:drops_bananas, projectvibrantjourneys:cottonwood_logs, minecraft:fences, minecraft:saplings, forge:storage_blocks/lapis, forge:ores/copper, betteranimalsplus:butterfly_growables, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, minecraft:doors, cfm:fence_gates/picket, minecraft:enderman_holdable, minecraft:banners, subwild:redstone_ores, forge:mushroom_stems, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, alexsmobs:rattlesnake_spawns, minecraft:wall_post_override, subwild:emerald_ores, forge:obsidian, forge:enderman_place_on_blacklist, biomesoplenty:mahogany_logs, minecraft:crosspillar, alexsmobs:kangaroo_spawns, alexsmobs:seal_digables, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, forge:glass/magenta, forge:mushroom_caps, spiderstpo:non_climbable, alexsmobs:mimic_octopus_spawns, minecraft:hoglin_repellents, forge:ores/coal, minecraft:fire, cfm:fence_gates/upgraded, minecraft:base_stone_nether, minecraft:wall_signs, carryon:block_whitelist, subwild:iron_ores, minecraft:mineable/shovel, alexsmobs:drops_acacia_blossoms, forge:storage_blocks/end_crystal, forge:huge_mushrooms, forge:sand/colorless, croptopia:crops, minecraft:trapdoors, alexsmobs:komodo_dragon_spawns, forge:glass/cyan, forge:storage_blocks/double_compressed_obsidian, alexsmobs:crow_fears, quark:crab_spawnable, alexsmobs:mantis_shrimp_spawns, forge:glass, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, alexsmobs:lobster_spawns, subwild:molten_blocks, minecraft:leaves, minecraft:walls, minecraft:coral_blocks, forge:glass/green, alexsmobs:cachalot_whale_breakables, forge:ores/end_crystal, forge:glass_panes/gray, minecraft:wither_immune, minecraft:acacia_logs, forge:stained_glass_panes, minecraft:underwater_bonemeals, forge:sand/red, minecraft:impermeable, alexsmobs:emu_spawns, minecraft:sand, forge:end_stones, survivaloverhaul:free_climbable, forge:glass/brown, biomesoplenty:fir_logs, minecraft:logs_that_burn, projectvibrantjourneys:fir_logs, forge:storage_blocks/compressed_stone, forge:fences/wooden, sereneseasons:summer_crops, forge:glass/gray, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, projectvibrantjourneys:joshua_logs, forge:glass_panes/orange, forge:glass/light_gray, treechop:choppables, forge:ores/quartz, minecraft:wooden_slabs, projectvibrantjourneys:willow_logs, alexsmobs:platypus_spawns, forge:glass/blue, minecraft:small_flowers, minecraft:wooden_trapdoors, cfm:fences/upgraded, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, cfm:fences/picket, treechop:choppables_except_mushrooms, forge:storage_blocks/redstone, sereneseasons:winter_crops, alexsmobs:grizzly_beehive, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, sereneseasons:unbreakable_infertile_crops, minecraft:logs, treechop:chopped_logs, forge:stone, alexsmobs:crocodile_spawns, minecraft:valid_spawn, forge:storage_blocks/triple_compressed_stone, minecraft:mushroom_grow_block, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, minecraft:infiniburn_end, forge:glass_panes/yellow, sereneseasons:autumn_crops, subwild:gold_ores, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, projectvibrantjourneys:maple_logs, alexsmobs:soul_vulture_spawns, biomesoplenty:cherry_logs, quark:vertical_slab, forge:storage_blocks/compressed_obsidian, secretroomsmod:one_way_glass_cull, minecraft:wart_blocks, forge:storage_blocks/compressed_glow_stone, alexsmobs:leafcutter_ant_breakables, quark:hedges, alexsmobs:gorilla_breakables, forge:storage_blocks/double_compressed_dirt, subwild:speleothems, minecraft:beacon_base_blocks, alexsmobs:orca_breakables, alexsmobs:seal_spawns, projectvibrantjourneys:baobab_logs, minecraft:shulker_boxes, alexsmobs:mungus_replace_mushroom, minecraft:anvil, forge:ores/silver, minecraft:birch_logs, forge:storage_blocks/double_compressed_glow_stone, forge:sand, sereneseasons:greenhouse_glass, bagofyurting:blacklist, minecraft:wall_corals, iceandfire:myrmex_harvestables, minecraft:blockidentifiers, forge:ores/mercury, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, alexsmobs:elephant_foodblocks, minecraft:oak_logs, forge:ores/gold, forge:barrels, minecraft:piglin_repellents, forge:ores/lapis, biomesoplenty:palm_logs, forge:glass/black, biomesoplenty:dead_logs, minecraft:portals, alexsmobs:mungus_replace_nether, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, forge:storage_blocks/biotite, minecraft:jungle_logs, cfm:fences/hedge, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, alexsmobs:crow_foodblocks, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, forge:glass_panes/lime, bagofyurting:replaceable, sereneseasons:spring_crops, endrem:end_crystal_gen, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, projectvibrantjourneys:tamarack_logs, subwild:coal_ores, minecraft:corals, minecraft:buttons, minecraft:flowers, alexsmobs:void_worm_breakables, quark:foxhound_spawnable, minecraft:planks, forge:cobblestone, projectvibrantjourneys:redwood_logs, minecraft:rails, forge:barrels/wooden, alexsmobs:soul_vulture_perches, forge:storage_blocks/double_compressed_stone, minecraft:strider_warm_blocks, forge:storage_blocks/gold, projectvibrantjourneys:juniper_logs, minecraft:fence_gates, forge:ores, projectvibrantjourneys:pine_logs, minecraft:bee_growables, minecraft:wooden_pressure_plates, subwild:lapis_ores, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, forge:storage_blocks/diamond, minecraft:nylium, subwild:foxfire, alexsmobs:warped_mosco_breakables, minecraft:gold_ores, forge:glass_panes/pink, forge:netherrack, forge:terracotta, treechop:leaves_like]
+[18Oct2021 20:23:07.216] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[18Oct2021 20:23:07.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Oct2021 20:23:07.824] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Oct2021 20:23:07.824] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Oct2021 20:23:08.099] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:08.099] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityJellyfish from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[18Oct2021 20:23:08.103] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityWhale from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:08.303] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 984 ms
+[18Oct2021 20:23:08.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.330s)! For help, type "help"
+[18Oct2021 20:23:08.318] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server starting...
+[18Oct2021 20:23:08.319] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[18Oct2021 20:23:08.319] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[18Oct2021 20:23:08.323] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Working Man's Mineables: parsed blockstate Block{minecraft:gold_ore} for colors [245, 245, 0, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.324] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Working Man's Mineables: parsed blockstate Block{minecraft:iron_ore} for colors [245, 245, 0, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.325] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Working Man's Mineables: parsed blockstate Block{minecraft:coal_ore} for colors [51, 26, 0, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.325] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Shiny Stones: parsed blockstate Block{minecraft:lapis_ore} for colors [55, 70, 220, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.325] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Shiny Stones: parsed blockstate Block{minecraft:redstone_ore}[lit=false] for colors [255, 125, 155, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.325] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Shiny Stones: parsed blockstate Block{minecraft:diamond_ore} for colors [51, 255, 204, 15, 1, 1, 16, 0]
+[18Oct2021 20:23:08.325] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Shiny Stones: parsed blockstate Block{minecraft:emerald_ore} for colors [26, 255, 26, 7, 1, 4, 31, 0]
+[18Oct2021 20:23:08.326] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Nether Delights: parsed blockstate Block{minecraft:nether_gold_ore} for colors [245, 245, 0, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.326] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Nether Delights: parsed blockstate Block{minecraft:nether_quartz_ore} for colors [55, 70, 220, 15, 1, 1, 100, 0]
+[18Oct2021 20:23:08.326] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Nether Delights: parsed blockstate Block{minecraft:ancient_debris} for colors [51, 255, 204, 15, 1, 1, 16, 0]
+[18Oct2021 20:23:15.428] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player DeltaTsT is 2b8b6f57-bb6d-426b-b0f0-c90800fb7579
+[18Oct2021 20:23:17.509] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_301]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_301]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_301]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_301]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_301]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_301]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+[18Oct2021 20:23:17.510] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [archers_paradox] Starting version check at https://raw.github.com/cofh/version/master/archers_paradox/update.json
+[18Oct2021 20:23:17.695] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2e0e80a9
+[18Oct2021 20:23:17.739] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: DeltaTsT[/10.0.0.148:52226] logged in with entity id 160 at (-220.5515592724679, 65.0, 79.9427426016884)
+[18Oct2021 20:23:17.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [archers_paradox] Found status: UP_TO_DATE Current: 1.3.1 Target: null
+[18Oct2021 20:23:17.760] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [findercompass] Starting version check at http://www.atomicstryker.net/updatemanager/findercompass.json
+[18Oct2021 20:23:17.766] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DeltaTsT joined the game
+[18Oct2021 20:23:17.817] [Server thread/INFO] [atomicstryker.findercompass.common.FinderCompassMod/]: Server sending Finder Compass Handshake to player TextComponent{text='', siblings=[TextComponent{text='DeltaTsT', siblings=[], style=Style{ color=null, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null, font=minecraft:default}}], style=Style{ color=null, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, clickEvent=ClickEvent{action=SUGGEST_COMMAND, value='/tell DeltaTsT '}, hoverEvent=HoverEvent{action=<action show_entity>, value='net.minecraft.util.text.event.HoverEvent$EntityHover@3a8bce1a'}, insertion=DeltaTsT, font=minecraft:default}}
+[18Oct2021 20:23:17.819] [Server thread/INFO] [com.wuest.prefab.Prefab/]: Sent config to 'DeltaTsT'.
+[18Oct2021 20:23:18.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [findercompass] Found status: BETA Current: 1.16.2.1 Target: null
+[18Oct2021 20:23:18.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplyjetpacks] Starting version check at https://raw.githubusercontent.com/Tomson124/SimplyJetpacks2/1.16/updates/update.json
+[18Oct2021 20:23:18.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplyjetpacks] Found status: OUTDATED Current: 1.16.5-2.6.11.2 Target: 2.6.11.2
+[18Oct2021 20:23:18.049] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[18Oct2021 20:23:18.188] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntitySongbird from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.226] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.226] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityFreshwaterEel from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[18Oct2021 20:23:18.229] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.229] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityLamprey from class dev.itsmeow.betteranimalsplus.imdlib.entity.util.EntityTypeContainerContainable
+[18Oct2021 20:23:18.276] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBoar from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.283] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityShark from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.428] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityReindeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre22 Target: 7.0.0-pre22
+[18Oct2021 20:23:18.450] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityBadger from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:18.933] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityTurkey from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:19.009] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityDeer from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:19.121] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class its_meow.betteranimalsplus.common.entity.EntityPheasant from class dev.itsmeow.betteranimalsplus.imdlib.entity.EntityTypeContainer
+[18Oct2021 20:23:35.242] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DeltaTsT lost connection: Disconnected
+[18Oct2021 20:23:35.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DeltaTsT left the game
+[18Oct2021 20:23:39.480] [Server thread/INFO] [stormedpanda.simplyjetpacks.SimplyJetpacks/]: Server stopping...
+[18Oct2021 20:23:39.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Oct2021 20:23:39.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Oct2021 20:23:39.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Oct2021 20:23:39.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18Oct2021 20:23:40.262] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Oct2021 20:23:40.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18Oct2021 20:23:40.263] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Oct2021 20:23:40.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18Oct2021 20:23:40.264] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Oct2021 20:23:40.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/wrd:the_deeper_depths
+[18Oct2021 20:23:40.266] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_deeper_depths): All chunks are saved
+[18Oct2021 20:23:40.289] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Oct2021 20:23:40.295] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Oct2021 20:23:40.296] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Oct2021 20:23:40.296] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_deeper_depths): All chunks are saved

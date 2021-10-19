@@ -1,0 +1,32 @@
+[15:56:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:56:20] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:56:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:56:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:56:20] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:56:20] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:56:20] [main/INFO]: Reloading ResourceManager: Default
+[15:56:20] [Worker-Main-12/INFO]: Loaded 7 recipes
+[15:56:20] [Worker-Main-12/INFO]: Loaded 927 advancements
+[15:56:21] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[15:56:21] [Server thread/INFO]: Loading properties
+[15:56:21] [Server thread/INFO]: Default game type: SURVIVAL
+[15:56:21] [Server thread/INFO]: Generating keypair
+[15:56:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:56:21] [Server thread/INFO]: Using default channel type
+[15:56:22] [Server thread/INFO]: Preparing level "world"
+[15:56:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:56:23] [Server thread/INFO]: Preparing spawn area: 0%
+[15:56:23] [Server thread/INFO]: Preparing spawn area: 2%
+[15:56:24] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[15:56:24] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[15:56:24] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[15:56:25] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[15:56:25] [Worker-Main-10/INFO]: Preparing spawn area: 86%
+[15:56:26] [Worker-Main-14/INFO]: Preparing spawn area: 97%
+[15:56:26] [Server thread/INFO]: Time elapsed: 3631 ms
+[15:56:26] [Server thread/INFO]: Done (3.677s)! For help, type "help"
+[15:57:57] [User Authenticator #1/INFO]: UUID of player DeltaTsT is 2b8b6f57-bb6d-426b-b0f0-c90800fb7579
+[15:57:57] [Server thread/INFO]: DeltaTsT[/10.0.0.148:53437] logged in with entity id 198 at (-42.5, 66.0, 191.5)
+[15:57:57] [Server thread/INFO]: DeltaTsT joined the game
+[15:57:59] [Server thread/INFO]: DeltaTsT lost connection: Disconnected
+[15:57:59] [Server thread/INFO]: DeltaTsT left the game

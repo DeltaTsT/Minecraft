@@ -1,0 +1,135 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 16/10/21 4:28 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.fml.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:85) ~[forge:?] {re:classloading}
+	at net.minecraftforge.fml.server.ServerModLoader.load(ServerModLoader.java:51) ~[forge:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:95) ~[?:?] {re:classloading}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_301] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_301] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_301] {}
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.0.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.0.jar:?] {}
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.0.jar:?] {}
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.0.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at it.unimi.dsi.fastutil.objects.Object2FloatOpenHashMap.rehash(Object2FloatOpenHashMap.java:1124) ~[?:?] {re:classloading}
+-- MOD croptopia --
+Details:
+	Mod File: Croptopia-1.16.4-FORGE-1.4.2.jar
+	Failure message: Croptopia (croptopia) encountered an error during the common_setup event phase
+		java.lang.ArrayIndexOutOfBoundsException: 512
+	Mod Version: 1.4.2
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.ArrayIndexOutOfBoundsException: 512
+Stacktrace:
+	at it.unimi.dsi.fastutil.objects.Object2FloatOpenHashMap.rehash(Object2FloatOpenHashMap.java:1124) ~[?:?] {re:classloading}
+	at it.unimi.dsi.fastutil.objects.Object2FloatOpenHashMap.insert(Object2FloatOpenHashMap.java:272) ~[?:?] {re:classloading}
+	at it.unimi.dsi.fastutil.objects.Object2FloatOpenHashMap.put(Object2FloatOpenHashMap.java:280) ~[?:?] {re:classloading}
+	at me.thonk.croptopia.Composter.registerCompostableItem(Composter.java:46) ~[croptopia:1.4.2] {re:classloading}
+	at me.thonk.croptopia.Composter.lambda$init$1(Composter.java:15) ~[croptopia:1.4.2] {re:classloading}
+	at java.util.ArrayList.forEach(Unknown Source) ~[?:1.8.0_301] {}
+	at me.thonk.croptopia.Composter.init(Composter.java:14) ~[croptopia:1.4.2] {re:classloading}
+	at me.thonk.croptopia.CroptopiaForge.setup(CroptopiaForge.java:118) ~[croptopia:1.4.2] {re:mixin,re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120) ~[forge:36.2] {re:classloading}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[forge:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:1.8.0_301] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source) ~[?:1.8.0_301] {}
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) ~[?:1.8.0_301] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) ~[?:1.8.0_301] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) ~[?:1.8.0_301] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) ~[?:1.8.0_301] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_301, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 405458008 bytes (386 MB) / 1071120384 bytes (1021 MB) up to 1071120384 bytes (1021 MB)
+	CPUs: 20
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.0.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.0
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		forge-1.16.5-36.2.0-server.jar                    |Minecraft                     |minecraft                     |1.16.5              |SIDED_SETU|Manifest: NOSIGNATURE
+		TreeChop-1.16.4-0.14.6-fixed.jar                  |HT's TreeChop                 |treechop                      |0.14.6              |SIDED_SETU|Manifest: NOSIGNATURE
+		repurposed_structures_forge-3.2.9+1.16.5.jar      |Repurposed Structures         |repurposed_structures         |3.2.9+1.16.5        |SIDED_SETU|Manifest: NOSIGNATURE
+		physics-mod-1.0.6_forge.jar                       |Physics Mod                   |physicsmod                    |1.0                 |SIDED_SETU|Manifest: NOSIGNATURE
+		roughtweaks-1.16.5-2.5.0.jar                      |Rough Tweaks                  |roughtweaks                   |2.5.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		BiomesOPlenty-1.16.5-13.1.0.477-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.5-13.1.0.477   |SIDED_SETU|Manifest: NOSIGNATURE
+		projectvibrantjourneys-1.16.5-3.2.10.jar          |Project: Vibrant Journeys     |projectvibrantjourneys        |1.16.5-3.2.10       |SIDED_SETU|Manifest: NOSIGNATURE
+		endremastered-forge-R4.1.1.jar                    |End Remastered                |endrem                        |4.1                 |SIDED_SETU|Manifest: NOSIGNATURE
+		bagofyurting-1.16.4-1.2.0.1.jar                   |Bag of Yurting                |bagofyurting                  |1.2.0.1             |SIDED_SETU|Manifest: NOSIGNATURE
+		spiders-2.0-1.16.4-1.0.4.jar                      |Spiders 2.0                   |spiderstpo                    |1.0.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		prefab-1.6.5.12.jar                               |Prefab                        |prefab                        |1.6.5.12            |SIDED_SETU|Manifest: NOSIGNATURE
+		GeneticAnimals-0_6_29.jar                         |Genetic Animals               |eanimod                       |0_6_29              |SIDED_SETU|Manifest: NOSIGNATURE
+		astikorcarts-1.16.5-1.1.1.jar                     |AstikorCarts                  |astikorcarts                  |1.1.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		mostructures-forge-1.2.0-1.16.5.jar               |Mo' Structures                |mostructures                  |1.2.0-1.16.5        |SIDED_SETU|Manifest: NOSIGNATURE
+		InsaneLib-1.3.1-mc1.16.5.jar                      |InsaneLib                     |insanelib                     |1.3.1-mc1.16.5      |SIDED_SETU|Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.3.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.3      |SIDED_SETU|Manifest: NOSIGNATURE
+		SimplyJetpacks2-1.16.5-2.6.11.2.jar               |Simply Jetpacks 2             |simplyjetpacks                |1.16.5-2.6.11.2     |SIDED_SETU|Manifest: NOSIGNATURE
+		Croptopia-1.16.4-FORGE-1.4.2.jar                  |Croptopia                     |croptopia                     |1.4.2               |ERROR     |Manifest: NOSIGNATURE
+		betterweather-2.0.1.jar                           |Better Weather                |betterweather                 |2.0.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		specialai-1.16.5-1.0.1.jar                        |Special AI                    |specialai                     |1.16.5-1.0.1        |SIDED_SETU|Manifest: NOSIGNATURE
+		comforts-forge-1.16.5-4.0.1.3.jar                 |Comforts                      |comforts                      |1.16.5-4.0.1.3      |SIDED_SETU|Manifest: NOSIGNATURE
+		citadel-1.8.1-1.16.5.jar                          |Citadel                       |citadel                       |1.8.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		alexsmobs-1.12.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.12.1              |SIDED_SETU|Manifest: NOSIGNATURE
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |SIDED_SETU|Manifest: NOSIGNATURE
+		Artifacts-1.16.5-2.10.3.jar                       |Artifacts                     |artifacts                     |1.16.5-2.10.3       |SIDED_SETU|Manifest: NOSIGNATURE
+		betteranimalsplus-1.16.5-10.2.0.jar               |Better Animals Plus           |betteranimalsplus             |10.2.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.16.5-10.3.29.jar                |Bookshelf                     |bookshelf                     |10.3.29             |SIDED_SETU|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		BotanyPots-1.16.5-7.0.17.jar                      |BotanyPots                    |botanypots                    |7.0.17              |SIDED_SETU|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		sophisticatedbackpacks-1.16.5-3.4.2.354.jar       |Sophisticated Backpacks       |sophisticatedbackpacks        |1.16.5-3.4.2.354    |SIDED_SETU|Manifest: NOSIGNATURE
+		secretrooms-1.16.5-1.1.3.jar                      |Secret Rooms 6                |secretroomsmod                |1.16.5-1.1.3        |SIDED_SETU|Manifest: NOSIGNATURE
+		constructionwand-1.16.5-2.2.jar                   |Construction Wand             |constructionwand              |1.16.5-2.2          |SIDED_SETU|Manifest: NOSIGNATURE
+		feudalw-2.2.2.jar                                 |Feudal Weaponry               |feudalw                       |2.2.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		cfm-7.0.0pre22-1.16.3.jar                         |MrCrayfish's Furniture Mod    |cfm                           |7.0.0-pre22         |SIDED_SETU|Manifest: NOSIGNATURE
+		EnhancedAI-1.1.2-mc1.16.5.jar                     |Enhanced AI                   |enhancedai                    |1.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.0-universal.jar                 |Forge                         |forge                         |36.2.0              |SIDED_SETU|Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		Quark-r2.4-319.jar                                |Quark                         |quark                         |r2.4-319            |SIDED_SETU|Manifest: NOSIGNATURE
+		cofh_core-1.16.5-1.3.1.jar                        |CoFH Core                     |cofh_core                     |1.3.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		archers_paradox-1.16.5-1.3.1.jar                  |Archer's Paradox              |archers_paradox               |1.3.1               |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		expandability-2.0.1-forge.jar                     |ExpandAbility                 |expandability                 |2.0.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		nutritionalbalance-1.16.5-0.7.7.jar               |Nutritional Balance           |nutritionalbalance            |1.16.5-0.7.7        |SIDED_SETU|Manifest: NOSIGNATURE
+		DynamicSurroundings-1.16.4-4.0.4.2.jar            |§3Dynamic Surroundings        |dsurround                     |1.16.4-4.0.4.2      |SIDED_SETU|Manifest: b4:98:14:b9:76:55:25:4f:e5:5f:4d:71:90:87:43:5b:f9:d5:3a:02:60:42:5e:da:1f:15:9c:ff:be:a9:7c:77
+		corpse-1.16.5-1.0.5.jar                           |Corpse                        |corpse                        |1.16.5-1.0.5        |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: d4d59c9f-0ad3-4a28-b049-9004487ba4bc

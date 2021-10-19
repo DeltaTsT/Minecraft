@@ -3,7 +3,7 @@
     {
       "identity": {},
       "group": "food",
-      "temperature": 1.0,
+      "temperature": 3.0,
       "duration": 1200
     }
   ],
@@ -11,7 +11,7 @@
     {
       "identity": {},
       "group": "food",
-      "temperature": 1.0,
+      "temperature": 3.0,
       "duration": 1200
     }
   ]

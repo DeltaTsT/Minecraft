@@ -6,45 +6,45 @@
 	dropChance = 30
 	#Amount of half hearts sleeping heals. Set to 0 to disable this feature
 	#Range: 0.0 ~ 32767.0
-	sleepHealAmount = 2.0
+	sleepHealAmount = 10.0
 	#Set to true if you want to regenerate health without the use of healing items
-	healthRegen = false
+	healthRegen = true
 
 #Defines how often you're able to rightclick the item to heal yourself. Set the use count to 0 to disable the item.
 [HealCount]
 	#Use count for the enchanted medkit item
 	#Range: > 0
-	medkitEnchantedHealCount = 64
+	medkitEnchantedHealCount = 32
 	#Use count for the plaster item
 	#Range: > 0
-	plasterHealCount = 20
+	plasterHealCount = 8
 	#Use count for the salve item
 	#Range: > 0
-	salveHealCount = 20
+	salveHealCount = 8
 	#Use count for the bandage item
 	#Range: > 0
-	bandageHealCount = 32
+	bandageHealCount = 16
 	#Use count for the medkit item
 	#Range: > 0
-	medkitHealCount = 64
+	medkitHealCount = 32
 
 #Defines how much health the item restores on rightclick.
 [HealAmount]
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	medkitHealAmount = 3.0
+	medkitHealAmount = 6.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	bandageHealAmount = 2.0
+	bandageHealAmount = 4.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	plasterHealAmount = 2.0
+	plasterHealAmount = 4.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	medkitEnchantedHealAmount = 4.0
+	medkitEnchantedHealAmount = 8.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	salveHealAmount = 2.0
+	salveHealAmount = 4.0
 
 #Defines how long it takes for a healing item to get used.
 [HealTime]
@@ -62,5 +62,5 @@
 	plasterUseTime = 10
 	#Use time for the salve item
 	#Range: 0 ~ 72000
-	salveUseTime = 5
+	salveUseTime = 15
 

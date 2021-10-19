@@ -96,7 +96,7 @@
   "minecraft:torch": [
     {
       "properties": {},
-      "temperature": 1.5
+      "temperature": 4.0
     }
   ],
   "minecraft:wall_torch": [

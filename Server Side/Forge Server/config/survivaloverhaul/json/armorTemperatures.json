@@ -8,7 +8,7 @@
   ],
   "minecraft:leather_chestplate": [
     {
-      "insulation": 0.9,
+      "insulation": 2.0,
       "identity": {},
       "temperature": 1.0
     }
@@ -29,14 +29,14 @@
   ],
   "minecraft:leather_boots": [
     {
-      "insulation": 0.9,
+      "insulation": 2.0,
       "identity": {},
       "temperature": 0.25
     }
   ],
   "minecraft:leather_leggings": [
     {
-      "insulation": 0.9,
+      "insulation": 2.0,
       "identity": {},
       "temperature": 0.75
     }
@@ -78,7 +78,7 @@
   ],
   "minecraft:leather_helmet": [
     {
-      "insulation": 0.9,
+      "insulation": 2.0,
       "identity": {},
       "temperature": 0.5
     }

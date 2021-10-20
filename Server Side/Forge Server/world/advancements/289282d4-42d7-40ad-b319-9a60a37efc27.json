@@ -1589,6 +1589,12 @@
     },
     "done": true
   },
+  "survivaloverhaul:recipes/cooling_coil": {
+    "criteria": {
+      "has_the_recipe": "2021-10-19 19:16:16 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_the_recipe": "2021-10-17 19:15:08 -0500"
@@ -9996,6 +10002,12 @@
   "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
       "has_the_recipe": "2021-10-17 19:15:08 -0500"
+    },
+    "done": true
+  },
+  "survivaloverhaul:recipes/heating_coil": {
+    "criteria": {
+      "has_the_recipe": "2021-10-19 19:16:16 -0500"
     },
     "done": true
   },

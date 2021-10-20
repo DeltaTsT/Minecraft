@@ -1595,6 +1595,12 @@
     },
     "done": true
   },
+  "survivaloverhaul:recipes/cooling_coil": {
+    "criteria": {
+      "has_the_recipe": "2021-10-19 19:14:15 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_the_recipe": "2021-10-17 20:25:00 -0500"
@@ -10052,6 +10058,12 @@
   "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
       "has_the_recipe": "2021-10-17 20:25:01 -0500"
+    },
+    "done": true
+  },
+  "survivaloverhaul:recipes/heating_coil": {
+    "criteria": {
+      "has_the_recipe": "2021-10-19 19:14:15 -0500"
     },
     "done": true
   },

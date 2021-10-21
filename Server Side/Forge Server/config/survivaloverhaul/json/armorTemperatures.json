@@ -17,7 +17,7 @@
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": 3.0
+      "temperature": 4.5
     }
   ],
   "minecraft:iron_leggings": [
@@ -45,28 +45,28 @@
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": 0.5
+      "temperature": 10.0
     }
   ],
   "survivaloverhaul:desert_leggings": [
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": -2.5
+      "temperature": -3.5
     }
   ],
   "survivaloverhaul:desert_boots": [
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": -0.5
+      "temperature": -10.0
     }
   ],
   "survivaloverhaul:desert_chestplate": [
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": -3.0
+      "temperature": -4.0
     }
   ],
   "minecraft:iron_boots": [
@@ -101,14 +101,14 @@
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": 2.5
+      "temperature": 3.5
     }
   ],
   "survivaloverhaul:desert_helmet": [
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": -1.5
+      "temperature": -2.0
     }
   ],
   "artifacts:villager_hat": [
@@ -129,7 +129,7 @@
     {
       "insulation": 1.0,
       "identity": {},
-      "temperature": 1.5
+      "temperature": 2.0
     }
   ]
 }

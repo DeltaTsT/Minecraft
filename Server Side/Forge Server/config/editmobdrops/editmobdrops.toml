@@ -7,7 +7,7 @@ itemsToAdd = []
 #Mob groups, in the form [EntityName]:[EntityName]...
 mobGroups = []
 #Mobs to clear existing drops from
-mobsToClear = ["ChickenEntity", "CowEntity", "PigEntity"]
+mobsToClear = []
 #Single mob items, in the form EntityName:modid:itemName:[nbtfile]:[minStackSize]:[maxStackSize]:[chance]
-singleMobItems = ["ChickenEntity:minecraft:chicken::0:1:30", "ChickenEntity:minecraft:feather::1:5:100", "CowEntity:minecraft:beef::0:1:30", "CowEntity:minecraft:leather::1:3:100", "PigEntity:minecraft:porkchop::0:1:30"]
+singleMobItems = ["ChickenEntity:minecraft:chicken::1:3:100", "CowEntity:minecraft:beef::1:1:100", "CowEntity:minecraft:leather::1:3:100", "PigEntity:minecraft:porkchop::1:3:100"]
 

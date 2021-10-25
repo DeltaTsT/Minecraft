@@ -52,7 +52,7 @@
 			[temperature.environment.time.multipliers]
 				# How strongly different biomes affect temperature, based on time.
 				#Range: 1.0 ~ Infinity
-				"Biome Time Multiplier" = 1.20
+				"Biome Time Multiplier" = 1.2
 				# How strongly the effects of time on temperature are multiplied.
 				#Range: 0.0 ~ Infinity
 				"Time Multiplier" = 1.0

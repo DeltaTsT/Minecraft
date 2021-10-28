@@ -9,7 +9,7 @@
 [arbitrary_time]
 	#How long nighttime lasts (12000 - 24000)
 	#Range: 1 ~ 178956
-	night_length_minutes = 5
+	night_length_minutes = 7
 	#How long daytime lasts (0 - 12000)
 	#Range: 1 ~ 178956
 	day_length_minutes = 20
